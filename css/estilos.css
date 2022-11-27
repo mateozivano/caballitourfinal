@@ -1,0 +1,161 @@
+.colorFondo {
+    background-color: rgb(183,154,124);
+}
+
+.colorVerde {
+    color: green;
+}
+
+.tamañoImg {
+    height: 5rem;
+    width: 8rem;
+}
+
+.tamañoCien {
+    width: 100%;
+    height: 100%;
+}
+
+.pym {
+    padding: 0;
+    margin: 0;
+}
+
+.enLinea {
+    display: inline-block;
+}
+
+.punteada {
+    Text-decoration: dotted underline;
+}
+
+.colorFuter {
+    background-color: rgb(180 112 63);
+}
+
+
+.textoFondo {
+	position: absolute;
+    top: 25rem;
+	bottom:0;
+	left: 43rem;
+	right:0;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: 88vh;
+    background-image: linear-gradient( rgba(0, 0 , 0, .6), rgba(0,0,0, 0.6)), url('../img/Parque-Centenario.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+    margin-bottom: 1.2rem;
+}
+
+.hero-content {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.hero-content-header {
+    margin: 0%;
+    padding-top: 100px;
+}
+
+.hero-content-p {
+    margin: 1.2rem 0;
+}
+
+.btn-hero-1 {
+    margin-right: 00.75rem;
+    font-weight: bold;
+    background-color: rgb(121, 118, 118);
+}
+
+.btn-hero-2 {
+    background-color: green;
+    border: none;
+    font-weight: bold;
+}
+
+
+.btn {
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.75rem;
+}
+
+form * {
+    margin-bottom: 1rem;
+}
+
+form input {
+    width: 100%;   
+}
+
+form textarea {
+   display: block; 
+   width: 100%;
+}
+
+form small {
+    display: block;
+}
+
+.centrado {
+    justify-content: center;
+}
+
+.elementoBloque {
+    display: block;
+}
+
+/*    nav sticky     */
+
+.stickyNav{ 
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    z-index: 5;
+}
+
+.formSection{
+    padding-top: 100px;
+}
+.formSection2{
+    padding-top: 170px;
+}
+.contenidoCard{
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.focentro{
+    text-align: center;
+}
+    
+.reserva{
+    padding-top: 100px;
+}
+.formFooter-logo{
+    display: none;
+}
+
+.bases1{
+    color: #888;
+}
+.bases2{
+    color: #8889;
+}
